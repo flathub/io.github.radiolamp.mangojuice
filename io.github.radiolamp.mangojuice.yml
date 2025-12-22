@@ -144,7 +144,7 @@ modules:
     sources:
       - type: git
         url: https://github.com/radiolamp/mangojuice.git
-        commit: 7841dc001f50410c8fb29a1699efbb9e8638fd21
+        commit: 8b3830d5fc244b11da3e780169741ddfbbba6cbf
         tag: 0.8.9
         x-checker-data:
           tag-pattern: ^v([\d.]+)$
