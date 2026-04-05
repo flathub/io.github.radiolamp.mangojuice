@@ -2,7 +2,7 @@
 
 app-id: io.github.radiolamp.mangojuice
 runtime: org.gnome.Platform
-runtime-version: '49'
+runtime-version: "49"
 sdk: org.gnome.Sdk
 command: mangojuice
 
@@ -22,8 +22,8 @@ cleanup:
   - /share/doc
   - /share/man
   - /share/pkgconfig
-  - '*.la'
-  - '*.a'
+  - "*.la"
+  - "*.a"
 modules:
   - name: vulkan-tools
     buildsystem: cmake-ninja
@@ -104,7 +104,7 @@ modules:
         sources:
           - type: git
             url: https://github.com/glfw/glfw.git
-            tag: '3.4'
+            tag: "3.4"
             commit: 7b6aead9fb88b3623e3b3725ebb42670cbe4c579
 
       - name: nlohmann-json
@@ -143,8 +143,8 @@ modules:
     sources:
       - type: git
         url: https://github.com/radiolamp/mangojuice.git
-        commit: 8b3830d5fc244b11da3e780169741ddfbbba6cbf
-        tag: 0.8.9
+        commit: b1c5c35d12cbafbb6ec8ebadd97a7f0c5f9257b3
+        tag: 0.9.0
         x-checker-data:
           tag-pattern: ^v([\d.]+)$
           type: git
