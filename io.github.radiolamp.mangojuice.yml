@@ -159,5 +159,5 @@ modules:
         commit: 390446f04705526f88a1547994288376e23abb1b
         tag: 1.0.0
         x-checker-data:
-          tag-pattern: ^v([\d.]+)$
+          tag-pattern: '^([\d.]+)$'
           type: git
